@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LG.ApiNetCore6.Application\LG.ApiNetCore6.Application.csproj" />
+    <ProjectReference Include="..\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Domain.csproj" />
+    <ProjectReference Include="..\LG.ApiNetCore6.Infra.Data\LG.ApiNetCore6.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LG.ApiNetCore6.Domain", "LG.ApiNetCore6.Domain\LG.ApiNetCore6.Domain.csproj", "{783C68A8-3232-4279-88F3-C9B4853FF773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LG.ApiNetCore6.Infra.Data", "LG.ApiNetCore6.Infra.Data\LG.ApiNetCore6.Infra.Data.csproj", "{8526D787-7367-49AC-8E6E-E87ECF9E219D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LG.ApiNetCore6.Application", "LG.ApiNetCore6.Application\LG.ApiNetCore6.Application.csproj", "{A337B101-3468-42C3-ABD0-70DC9CB98B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LG.ApiNetCore6.Infra.IoC", "LG.ApiNetCore6.Infra.IoC\LG.ApiNetCore6.Infra.IoC.csproj", "{1B900646-8872-41D5-8EBF-06BD096F042F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LG.ApiNetCore6.Api", "LG.ApiNetCore6.Api\LG.ApiNetCore6.Api.csproj", "{D8D3D7C0-12FE-4450-9AD1-178E3EA2A177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{783C68A8-3232-4279-88F3-C9B4853FF773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783C68A8-3232-4279-88F3-C9B4853FF773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783C68A8-3232-4279-88F3-C9B4853FF773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783C68A8-3232-4279-88F3-C9B4853FF773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8526D787-7367-49AC-8E6E-E87ECF9E219D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8526D787-7367-49AC-8E6E-E87ECF9E219D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8526D787-7367-49AC-8E6E-E87ECF9E219D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8526D787-7367-49AC-8E6E-E87ECF9E219D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A337B101-3468-42C3-ABD0-70DC9CB98B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A337B101-3468-42C3-ABD0-70DC9CB98B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A337B101-3468-42C3-ABD0-70DC9CB98B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A337B101-3468-42C3-ABD0-70DC9CB98B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B900646-8872-41D5-8EBF-06BD096F042F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B900646-8872-41D5-8EBF-06BD096F042F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B900646-8872-41D5-8EBF-06BD096F042F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B900646-8872-41D5-8EBF-06BD096F042F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D3D7C0-12FE-4450-9AD1-178E3EA2A177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D3D7C0-12FE-4450-9AD1-178E3EA2A177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D3D7C0-12FE-4450-9AD1-178E3EA2A177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D3D7C0-12FE-4450-9AD1-178E3EA2A177}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {520D3570-F225-457D-B652-05172BA68D98}
+	EndGlobalSection
+EndGlobal
