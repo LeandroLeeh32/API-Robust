@@ -1,0 +1,15 @@
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\bin\Debug\net6.0\LG.ApiNetCore6.Application.deps.json
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\bin\Debug\net6.0\LG.ApiNetCore6.Application.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\bin\Debug\net6.0\LG.ApiNetCore6.Application.pdb
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\bin\Debug\net6.0\LG.ApiNetCore6.Domain.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\bin\Debug\net6.0\LG.ApiNetCore6.Domain.pdb
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.csproj.AssemblyReference.cache
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.AssemblyInfoInputs.cache
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.AssemblyInfo.cs
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.csproj.CoreCompileInputs.cache
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.csproj.CopyComplete
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\refint\LG.ApiNetCore6.Application.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\LG.ApiNetCore6.Application.pdb
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Application\obj\Debug\net6.0\ref\LG.ApiNetCore6.Application.dll

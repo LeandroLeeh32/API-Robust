@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uyQcKRnnP5uVRKjHa6OdhhqRVtUx/ZSQomffQ4XIjW4=",
+  "Source": "LG.ApiNetCore6.Api",
+  "BasePath": "_content/LG.ApiNetCore6.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

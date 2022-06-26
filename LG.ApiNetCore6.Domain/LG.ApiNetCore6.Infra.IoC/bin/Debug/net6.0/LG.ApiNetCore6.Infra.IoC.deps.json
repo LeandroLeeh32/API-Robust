@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LG.ApiNetCore6.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "LG.ApiNetCore6.Application": "1.0.0",
+          "LG.ApiNetCore6.Domain": "1.0.0",
+          "LG.ApiNetCore6.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "LG.ApiNetCore6.Infra.IoC.dll": {}
+        }
+      },
+      "LG.ApiNetCore6.Application/1.0.0": {
+        "dependencies": {
+          "LG.ApiNetCore6.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LG.ApiNetCore6.Application.dll": {}
+        }
+      },
+      "LG.ApiNetCore6.Domain/1.0.0": {
+        "runtime": {
+          "LG.ApiNetCore6.Domain.dll": {}
+        }
+      },
+      "LG.ApiNetCore6.Infra.Data/1.0.0": {
+        "dependencies": {
+          "LG.ApiNetCore6.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LG.ApiNetCore6.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LG.ApiNetCore6.Infra.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LG.ApiNetCore6.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LG.ApiNetCore6.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LG.ApiNetCore6.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
