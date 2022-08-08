@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LG.ApiNetCore6.Domain.Entities
 {
-    public class PersonNatural
+    public sealed class PessoaJuridica
     {
-        public string CPF { get; set; }
+        public string CPF { get; private set; }
     }
 }
