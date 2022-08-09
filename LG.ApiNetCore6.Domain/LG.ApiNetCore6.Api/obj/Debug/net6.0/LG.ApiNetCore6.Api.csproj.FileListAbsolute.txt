@@ -33,3 +33,10 @@ C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\obj\Debug\net6.0\r
 C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\obj\Debug\net6.0\LG.ApiNetCore6.Api.pdb
 C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\obj\Debug\net6.0\LG.ApiNetCore6.Api.genruntimeconfig.cache
 C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\obj\Debug\net6.0\ref\LG.ApiNetCore6.Api.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Npgsql.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
