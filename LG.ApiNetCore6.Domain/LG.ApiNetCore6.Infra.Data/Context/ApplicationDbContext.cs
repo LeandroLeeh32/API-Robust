@@ -12,7 +12,9 @@ namespace LG.ApiNetCore6.Infra.Data.Context
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {}
-        public DbSet<Pessoa> MyProperty { get; set; }
+        public DbSet<Pessoa> Pessoa { get; set; }
+        public DbSet<Produto> Produto { get; set; }
+        public DbSet<Compra> Compra { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
