@@ -9,16 +9,10 @@ namespace LG.ApiNetCore6.Domain.Repositories
 {
     public interface IPessoaRepository
     {
-        public interface IPessoaRepository
-        {
-            Task<Pessoa> GetByIdAsync(int id);
-            Task<ICollection<Pessoa>> GetPessoaAsync();
-            Task<Pessoa> CreateAsync(Pessoa pessoa);
-            Task<Pessoa> UpdateAsync(Pessoa pessoa);
-            Task DeleteAsync(Pessoa pessoa);
-            
-
-
-        }
+        Task<Pessoa> GetByIdAsync(int id);
+        Task<ICollection<Pessoa>> GetPessoaAsync();
+        Task<Pessoa> CreateAsync(Pessoa pessoa);
+        Task<Pessoa> UpdateAsync(Pessoa pessoa);
+        Task DeleteAsync(Pessoa pessoa);
     }
 }

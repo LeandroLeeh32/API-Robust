@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dNL4wr+w1+uBMJXmGloas++E0QQRrKGa310caXyDwo+ImgTj2ap7vCU2+yuLH4dX1MwxBDQjFJZmowuC4ZPYcw==",
+  "dgSpecHash": "tHsQ1lqmeDxX0U1bIhz39S652id+jWWV4aEW+G1MThExZsoMkrKS1psS1UC3tI93oWnJ5W1CKF/hSJs4MYDhgA==",
   "success": true,
   "projectFilePath": "C:\\GIT_LEANDROLEEH32\\LG.ApiNetCore6.Domain\\LG.ApiNetCore6.Application\\LG.ApiNetCore6.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\leandro.oliveira\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512"
+    "C:\\Users\\leandro.oliveira\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\leandro.oliveira\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\leandro.oliveira\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5MSa7VcV97P61MScmR6wkceMeS4LvGPHmQkMC4gd6Pu6DFSXhNkWg9bWMIbpKn8AtBxzfCv9z3Fop73A1AkaNw==",
+  "dgSpecHash": "gdwNYuq+WTljOorJ4DnAJ01BKLlo5Byp5nJ/U4S9Io2YO76cYN3gamJEjqbHLYxgVlRdAk9xwQlLaCRsf3dq3w==",
   "success": true,
   "projectFilePath": "C:\\GIT_LEANDROLEEH32\\LG.ApiNetCore6.Domain\\LG.ApiNetCore6.Infra.IoC\\LG.ApiNetCore6.Infra.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\leandro.oliveira\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\leandro.oliveira\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
