@@ -18,6 +18,7 @@ namespace LG.ApiNetCore6.Domain.Entities
         public Pessoa(string name, string phone)
         {
             Validation(name, phone);
+            Compra = new List<Compra>();
         }
 
         private void Validation(string nome, string celular)

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gdwNYuq+WTljOorJ4DnAJ01BKLlo5Byp5nJ/U4S9Io2YO76cYN3gamJEjqbHLYxgVlRdAk9xwQlLaCRsf3dq3w==",
+  "dgSpecHash": "5hvDE3MUHKh1mEfpV5Pt27M0cjsb8iF9GApBCywJtH/rfFITqF53buz+4Ej+uG9VC20fhzaLugOdVjMMEvVWTg==",
   "success": true,
   "projectFilePath": "C:\\GIT_LEANDROLEEH32\\LG.ApiNetCore6.Domain\\LG.ApiNetCore6.Infra.IoC\\LG.ApiNetCore6.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\leandro.oliveira\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\leandro.oliveira\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",

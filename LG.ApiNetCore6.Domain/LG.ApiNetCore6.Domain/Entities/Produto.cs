@@ -18,6 +18,7 @@ namespace LG.ApiNetCore6.Domain.Entities
         public Produto(string descricao, string codigo, decimal preco)
         {
             Validacao(descricao, codigo, preco);
+            Compra = new List<Compra>();
         }
 
 

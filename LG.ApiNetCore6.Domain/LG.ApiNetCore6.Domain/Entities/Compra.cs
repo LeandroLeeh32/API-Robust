@@ -11,16 +11,16 @@ namespace LG.ApiNetCore6.Domain.Entities
         public int Id { get; private set; }
         public int ProdutoId { get; private set; }
         public int PessoaId { get; private set; }
-        public DateTime Data { get; private set; }
+        public DateTime? Data { get; private set; }
         public Produto Produto { get; set; }
         public Pessoa Pessoa { get; set; }
 
-        public Compra(int produtiId, int pessoaId,DateTime data)
+        public Compra(int produtiId, int pessoaId)
         {
-            Validacao(produtiId, pessoaId, data);
+            Validacao(produtiId, pessoaId);
         }
 
-        private void Validacao(int produtoId, int pessoaId, DateTime? data)
+        private void Validacao(int produtoId, int pessoaId)
         {
             Domain.Validations.DomainValidationException.When((produtoId < 0 ), "Id produto deve ser informado");
             ProdutoId = produtoId;
@@ -28,12 +28,7 @@ namespace LG.ApiNetCore6.Domain.Entities
             Domain.Validations.DomainValidationException.When((pessoaId < 0), "Id pessoa deve ser informado");
             PessoaId = pessoaId;
 
-            Domain.Validations.DomainValidationException.When((!data.HasValue), "Data da compra deve ser informado");
-            Data = data.Value;
-
-
-
-
+            Data =DateTime.Now;
 
         }
     }

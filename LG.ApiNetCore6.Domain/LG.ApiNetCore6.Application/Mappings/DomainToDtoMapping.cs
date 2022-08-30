@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LG.ApiNetCore6.Application.Mappings
 {
-    internal class DomainToDtoMapping:Profile
+    public class DomainToDtoMapping:Profile
     {
         public DomainToDtoMapping()
         {

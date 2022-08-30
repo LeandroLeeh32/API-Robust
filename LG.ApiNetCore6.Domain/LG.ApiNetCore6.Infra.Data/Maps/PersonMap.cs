@@ -16,7 +16,7 @@ namespace LG.ApiNetCore6.Infra.Data.Maps
             builder.ToTable("TB_PESSOA");
             builder.HasKey(x => x.Id);
             
-            builder.Property(x => x.Id).HasColumnName("IDPESSOA").UseIdentityColumn();
+            builder.Property(x => x.Id).HasColumnName("Idpessoa").UseIdentityColumn();
             builder.Property(x => x.Nome).HasColumnName("NOME").UseIdentityColumn();
             builder.Property(x => x.Celular).HasColumnName("CELULAR").UseIdentityColumn();
 

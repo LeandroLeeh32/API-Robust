@@ -16,10 +16,10 @@ namespace LG.ApiNetCore6.Infra.Data.Maps
             builder.ToTable("TB_COMPRA");
             builder.HasKey(x => x.Id);
 
-            builder.Property(X => X.Id).HasColumnName("IDCOMPRA").UseIdentityColumn();
+            builder.Property(X => X.Id).HasColumnName("Idcompra").UseIdentityColumn();
 
-            builder.Property(x => x.ProdutoId).HasColumnName("IDPRODUTO");
-            builder.Property(x => x.PessoaId).HasColumnName("IDPESSOA");
+            builder.Property(x => x.ProdutoId).HasColumnName("Idproduto");
+            builder.Property(x => x.PessoaId).HasColumnName("Idpessoa");
             builder.Property(X => X.Data).HasColumnName("DATA");
 
             builder.HasOne(x => x.Pessoa).WithMany(x => x.Compra);
