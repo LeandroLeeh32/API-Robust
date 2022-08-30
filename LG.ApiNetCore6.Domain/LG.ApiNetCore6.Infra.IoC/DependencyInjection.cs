@@ -22,7 +22,7 @@ namespace LG.ApiNetCore6.Infra.IoC
         {
             //injetor do nosso banco 
              services.AddDbContext<ApplicationDbContext>(options => 
-                                                         options.UseNpgsql(configuration.GetConnectionString("")));
+                                                         options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IPessoaRepository, PessoaRepository>();
             return services;

@@ -42,3 +42,4 @@ C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\N
 C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
 C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\FluentValidation.dll
 C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\AutoMapper.dll
+C:\GIT_LEANDROLEEH32\LG.ApiNetCore6.Domain\LG.ApiNetCore6.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -11,15 +11,16 @@ namespace LG.ApiNetCore6.Domain.Entities
         public int Id { get; private set; }
         public string Nome { get; private set; }
         public string Celular { get; private set; }
-        public PessoaFisica PessoaFisica { get; private set; }
-        public PessoaJuridica PessoaJuridica { get; private set; }
-        public ICollection<Compra> Compra { get; set; }
+        //public PessoaFisica? PessoaFisica { get; private set; }
+        //public PessoaJuridica? PessoaJuridica { get; private set; }
+        public ICollection<Compra> Compra { get; private set; }
 
-        public Pessoa(string name, string phone)
-        {
-            Validation(name, phone);
-            Compra = new List<Compra>();
+        public Pessoa( string nome, string celular)
+        { 
+            Validation(nome, celular);
+           
         }
+
 
         private void Validation(string nome, string celular)
         {

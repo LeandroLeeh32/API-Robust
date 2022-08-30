@@ -13,12 +13,12 @@ namespace LG.ApiNetCore6.Infra.Data.Maps
     {
         public void Configure(EntityTypeBuilder<Pessoa> builder)
         {
-            builder.ToTable("TB_PESSOA");
-            builder.HasKey(x => x.Id);
+            builder.ToTable("tb_pessoa");
+            builder.HasKey(c => c.Id);
             
-            builder.Property(x => x.Id).HasColumnName("Idpessoa").UseIdentityColumn();
-            builder.Property(x => x.Nome).HasColumnName("NOME").UseIdentityColumn();
-            builder.Property(x => x.Celular).HasColumnName("CELULAR").UseIdentityColumn();
+            builder.Property(c => c.Id).HasColumnName("idpessoa").UseIdentityColumn();
+            builder.Property(c => c.Nome).HasColumnName("nome");
+            builder.Property(c => c.Celular).HasColumnName("celular");
 
             builder.HasMany(c => c.Compra).WithOne(p => p.Pessoa).HasForeignKey(c => c.PessoaId);
 

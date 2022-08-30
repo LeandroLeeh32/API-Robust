@@ -28,9 +28,18 @@ namespace LG.ApiNetCore6.Infra.Data.Repositories
         }
         public async Task<Pessoa> CreateAsync(Pessoa pessoa)
         {
-            _db.Add(pessoa);
-            await _db.SaveChangesAsync();
-            return pessoa;
+            try
+            {
+                _db.Add(pessoa);
+                await _db.SaveChangesAsync();
+                return pessoa;
+            }
+            catch (Exception ec)
+            {
+
+                throw ec;
+            }
+          
         }
         public async Task<Pessoa> UpdateAsync(Pessoa pessoa)
         {

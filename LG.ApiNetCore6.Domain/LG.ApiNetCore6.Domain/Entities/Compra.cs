@@ -15,9 +15,9 @@ namespace LG.ApiNetCore6.Domain.Entities
         public Produto Produto { get; set; }
         public Pessoa Pessoa { get; set; }
 
-        public Compra(int produtiId, int pessoaId)
+        public Compra(int produtoId, int pessoaId)
         {
-            Validacao(produtiId, pessoaId);
+            Validacao(produtoId, pessoaId);
         }
 
         private void Validacao(int produtoId, int pessoaId)

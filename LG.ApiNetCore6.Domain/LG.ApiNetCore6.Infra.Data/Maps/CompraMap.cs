@@ -13,14 +13,14 @@ namespace LG.ApiNetCore6.Infra.Data.Maps
     {
         public void Configure(EntityTypeBuilder<Compra> builder)
         {
-            builder.ToTable("TB_COMPRA");
+            builder.ToTable("tb_compra");
             builder.HasKey(x => x.Id);
 
-            builder.Property(X => X.Id).HasColumnName("Idcompra").UseIdentityColumn();
+            builder.Property(X => X.Id).HasColumnName("idcompra").UseIdentityColumn();
 
-            builder.Property(x => x.ProdutoId).HasColumnName("Idproduto");
-            builder.Property(x => x.PessoaId).HasColumnName("Idpessoa");
-            builder.Property(X => X.Data).HasColumnName("DATA");
+            builder.Property(x => x.ProdutoId).HasColumnName("idproduto");
+            builder.Property(x => x.PessoaId).HasColumnName("idpessoa");
+            builder.Property(X => X.Data).HasColumnName("data");
 
             builder.HasOne(x => x.Pessoa).WithMany(x => x.Compra);
             builder.HasOne(x =>x.Produto).WithMany(x => x.Compra);
